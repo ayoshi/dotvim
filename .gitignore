@@ -7,3 +7,4 @@
 .DS_Store
 home/.vim/yankring_history_v2.txt
 home/.vim/.netrwhist
+*.swp

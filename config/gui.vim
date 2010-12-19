@@ -1,0 +1,25 @@
+" Gui configuration
+if has("gui_running")
+  " Basic GUI options  
+   set guioptions=ac
+   set guioptions-=m  "remove menu bar
+   set guioptions-=T  "remove toolbar
+   set guioptions-=r  "remove right-hand scroll bar
+  if has("gui_gtk2")
+   set guifont=Courier\ New\ 11
+  elseif has("gui_gnome")
+   set guifont=Courier\ New:s11
+  elseif has("gui_kde")
+   set guifont=Courier\ New/11/-1/5/50/0/0/0/1/0
+  elseif has("gui_macvim")
+    " In macvim , set Monaco as terminal font and transparency is available
+    set transp=3
+    set guifont=Monaco:h11
+    set lines=50
+    set columns=180
+  elseif has("x11")
+   set guifont=-*-courier-medium-r-normal-*-*-180-*-*-m-*-*
+  else
+    set guifont=Courier_New:h11:cDEFAULT
+  endif
+endif
