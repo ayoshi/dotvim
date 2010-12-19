@@ -13,3 +13,9 @@
 [submodule "bundle/QuickBuf"]
 	path = bundle/QuickBuf
 	url = git://github.com/vim-scripts/QuickBuf.git
+[submodule "bundle/L9"]
+	path = bundle/L9
+	url = git://github.com/vim-scripts/L9.git
+[submodule "bundle/FuzzyFinder"]
+	path = bundle/FuzzyFinder
+	url = git://github.com/vim-scripts/FuzzyFinder.git
