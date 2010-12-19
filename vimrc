@@ -34,7 +34,8 @@ filetype off
 
 " Pathogen: Load all plugins in the bundle directory
 call pathogen#runtime_append_all_bundles() 
-call pathogen#helptags()
+" Causes problems if bundles are git submodules , creates untracked tags files
+" call pathogen#helptags()
 
 " turn on all filetype settings, syntax, etc.
 filetype plugin indent on
