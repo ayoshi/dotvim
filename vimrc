@@ -32,8 +32,9 @@ set shortmess=filmnrxtTI
 " turn filetype settings off so that stuff gets loaded from pathogen
 filetype off
 
-" use pathogen to load plugins/etc.
-call pathogen#runtime_append_all_bundles()
+" Pathogen: Load all plugins in the bundle directory
+call pathogen#runtime_append_all_bundles() 
+call pathogen#helptags()
 
 " turn on all filetype settings, syntax, etc.
 filetype plugin indent on
