@@ -10,3 +10,6 @@
 [submodule "bundle/buftabs"]
 	path = bundle/buftabs
 	url = git://github.com/vim-scripts/buftabs.git
+[submodule "bundle/QuickBuf"]
+	path = bundle/QuickBuf
+	url = git://github.com/vim-scripts/QuickBuf.git
