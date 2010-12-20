@@ -32,10 +32,17 @@ set shortmess=filmnrxtTI
 " turn filetype settings off so that stuff gets loaded from pathogen
 filetype off
 
-" Pathogen: Load all plugins in the bundle directory
+" Add plugins which require ruby only if we have it compiled in
+if has("ruby") 
+	call pathogen#runtime_prepend_subdirectories('~/.vim/bundle-ruby')
+endif
+
+" Pathogen: Load all plugins in the bundle directories
 call pathogen#runtime_append_all_bundles() 
+
 " Causes problems if bundles are git submodules , creates untracked tags files
 " call pathogen#helptags()
+
 
 " turn on all filetype settings, syntax, etc.
 filetype plugin indent on

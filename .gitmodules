@@ -19,3 +19,15 @@
 [submodule "bundle/FuzzyFinder"]
 	path = bundle/FuzzyFinder
 	url = git://github.com/vim-scripts/FuzzyFinder.git
+[submodule "bundle-ruby/LustyExplorer"]
+	path = bundle-ruby/LustyExplorer
+	url = git://github.com/vim-scripts/LustyExplorer.git
+[submodule "bundle-ruby/LustyJuggler"]
+	path = bundle-ruby/LustyJuggler
+	url = git://github.com/vim-scripts/LustyJuggler
+[submodule "bundle/The-NERD-tree"]
+	path = bundle/The-NERD-tree
+	url = git://github.com/vim-scripts/The-NERD-tree.git
+[submodule "bundle/The-NERD-Commenter"]
+	path = bundle/The-NERD-Commenter
+	url = git://github.com/vim-scripts/The-NERD-Commenter.git
