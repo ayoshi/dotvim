@@ -34,3 +34,9 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle/camelcasemotion"]
+	path = bundle/camelcasemotion
+	url = git://github.com/vim-scripts/camelcasemotion.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git://github.com/ervandew/supertab.git
