@@ -9,7 +9,10 @@ if has('signs')
 endif
 
 " automatically open the location list when a buffer has errors
-let g:syntastic_auto_loc_list=1
+"let g:syntastic_auto_loc_list=1
 
 " always show warnings
 let g:syntastic_quiet_warnings=0
+
+" Filetypes to be removed from completion
+let g:syntastic_disabled_filetypes = [ 'cpp' , 'hpp' ]
