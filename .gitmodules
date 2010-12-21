@@ -31,3 +31,6 @@
 [submodule "bundle/The-NERD-Commenter"]
 	path = bundle/The-NERD-Commenter
 	url = git://github.com/vim-scripts/The-NERD-Commenter.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
