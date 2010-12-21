@@ -16,3 +16,6 @@ map <Leader>fb :FufBuffer <CR>
 map <Leader>fd :FufDir<CR>
 map <Leader>ft :FufTag<CR>
 map <Leader>fr :FufRenewCache<CR>
+
+" Set datadir
+let g:fuf_dataDir = '~/.vim/_tmp/.vim-fuf-data'
