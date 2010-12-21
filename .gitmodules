@@ -43,3 +43,6 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = git://github.com/vim-scripts/surround.vim.git
