@@ -19,6 +19,9 @@ set tabstop=3
 set shiftwidth=3
 set expandtab
 
+" Visual
+set showmatch  " Show matching brackets.
+
 set autoread     " automatically reload a file if it's changed outside vim
 
 " wrap settings
@@ -42,6 +45,9 @@ set textwidth=80 " 80-character lines maximum
 " 1 - Don't break a line after a one-letter word. It's broken before it
 "     instead (if possible).
 set formatoptions=rqn21
+
+" Use clipboard for yanks
+set clipboard+=unnamed 
 
 " Automatically restore cursor position when possible
 autocmd BufReadPost *

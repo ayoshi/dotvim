@@ -3,7 +3,7 @@
 """"""""""""""""""""""""""""""""""""""""
 
 set backupdir=~/.vim/_backups
-set directory=~/.vim/_backups
+set directory=~/.vim/_tmp
 
 " Configure undo files (if we're in vim 7.3 and +persistent_undo has been
 " compiled)

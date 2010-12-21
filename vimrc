@@ -8,7 +8,7 @@ set nocompatible
 set hidden
 
 " save the last 100 commands/search terms
-set history=100
+set history=300
 
 " use ; for <Leader>
 let mapleader = ";"    
