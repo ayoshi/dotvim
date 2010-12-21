@@ -14,15 +14,15 @@ if has("gui_running")
 
   if has("gui_gtk2")
 
-   set guifont=Courier\ New\ 11
+   set guifont=Monospace
 
   elseif has("gui_gnome")
 
-   set guifont=Courier\ New:s11
+   set guifont=Monospace:s11
 
   elseif has("gui_kde")
 
-   set guifont=Courier\ New/11/-1/5/50/0/0/0/1/0
+   set guifont=Monospace/11/-1/5/50/0/0/0/1/0
 
   elseif has("gui_macvim")
 
