@@ -25,3 +25,7 @@ augroup SimultaneousEdits
    autocmd!
    autocmd  SwapExists  *  :let v:swapchoice = 'e'
 augroup END
+
+
+" Netrw plugin config
+let g:netrw_home=".vim/_tmp"
