@@ -82,3 +82,6 @@
 [submodule "bundle/AllBuffersToOneWindow"]
 	path = bundle/AllBuffersToOneWindow
 	url = git://github.com/vim-scripts/AllBuffersToOneWindow.vim.git
+[submodule "bundle/buffers_search_and_replace"]
+	path = bundle/buffers_search_and_replace
+	url = git://github.com/vim-scripts/buffers_search_and_replace.git
