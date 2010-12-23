@@ -73,3 +73,9 @@
 [submodule "bundle/SudoEdit"]
 	path = bundle/SudoEdit
 	url = git://github.com/vim-scripts/SudoEdit.vim.git
+[submodule "bundle/python.vim--Vasiliev"]
+	path = bundle/python.vim--Vasiliev
+	url = git://github.com/vim-scripts/python.vim--Vasiliev.git
+[submodule "bundle/rails.vim"]
+	path = bundle/rails.vim
+	url = git://github.com/vim-scripts/rails.vim.git
