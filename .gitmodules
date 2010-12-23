@@ -52,3 +52,12 @@
 [submodule "bundle/vcscommand.vim"]
 	path = bundle/vcscommand.vim
 	url = git://github.com/vim-scripts/vcscommand.vim.git
+[submodule "bundle/DirDiff"]
+	path = bundle/DirDiff
+	url = git://github.com/vim-scripts/DirDiff.vim.git
+[submodule "bundle/vim-git"]
+	path = bundle/vim-git
+	url = git://github.com/tpope/vim-git.git
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
