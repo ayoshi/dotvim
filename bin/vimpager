@@ -18,13 +18,13 @@ else
 fi
 
 less_vim() {
-    vim -R \
+    vim -R -M \
+    -c 'set nonu' \
     -c 'let no_plugin_maps = 1' \
     -c 'set scrolloff=999' \
     -c 'runtime! macros/less.vim' \
     -c 'set foldlevel=999' \
     -c 'set mouse=h' \
-    -c 'set nonu' \
     -c 'set laststatus=0' \
     -c 'nmap <ESC>u :nohlsearch<cr>' \
     "$@"
