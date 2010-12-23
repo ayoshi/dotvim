@@ -85,3 +85,6 @@
 [submodule "bundle/buffers_search_and_replace"]
 	path = bundle/buffers_search_and_replace
 	url = git://github.com/vim-scripts/buffers_search_and_replace.git
+[submodule "bundle/zoom.vim"]
+	path = bundle/zoom.vim
+	url = git://github.com/vim-scripts/zoom.vim.git
