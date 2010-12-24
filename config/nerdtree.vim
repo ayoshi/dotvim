@@ -8,4 +8,5 @@ let NERDTreeChDirMode=2
 let NERDTreeShowHidden=1
 
 " keybindings
-map <Leader>d :NERDTreeToggle<CR>
+"map <Leader>d :NERDTreeToggle<CR>
+map <Leader>t :NERDTreeToggle<CR>
