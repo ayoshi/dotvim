@@ -88,3 +88,6 @@
 [submodule "bundle/zoom.vim"]
 	path = bundle/zoom.vim
 	url = git://github.com/vim-scripts/zoom.vim.git
+[submodule "bundle/Limp"]
+	path = bundle/Limp
+	url = git://github.com/vim-scripts/Limp.git
