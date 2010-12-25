@@ -91,3 +91,6 @@
 [submodule "bundle/Limp"]
 	path = bundle/Limp
 	url = git://github.com/vim-scripts/Limp.git
+[submodule "bundle-python/slimv.vim"]
+	path = bundle-python/slimv.vim
+	url = git://github.com/vim-scripts/slimv.vim.git
