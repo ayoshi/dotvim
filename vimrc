@@ -37,12 +37,16 @@ if has("ruby")
 	call pathogen#runtime_prepend_subdirectories('~/.vim/bundle-ruby')
 endif
 
+" Add plugins which require python only if we have it compiled in
+if has("python") 
+	call pathogen#runtime_prepend_subdirectories('~/.vim/bundle-python')
+endif
+
 " Pathogen: Load all plugins in the bundle directories
 call pathogen#runtime_append_all_bundles() 
 
 " Causes problems if bundles are git submodules , creates untracked tags files
 " call pathogen#helptags()
-
 
 " turn on all filetype settings, syntax, etc.
 filetype plugin indent on
