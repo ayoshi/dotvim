@@ -9,5 +9,5 @@ set diffopt+=iwhite
 "  set diffopt+=icase
 
 "Horizontal split
-set diffopt+=horizontal
+"set diffopt+=horizontal
 
