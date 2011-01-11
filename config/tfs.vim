@@ -9,6 +9,12 @@ function! Tfcheckin()
 endfunction
 command! Tfcheckin :call Tfcheckin()
 
+function! Tfcommit()
+   exe '!tf checkin "' expand('%:p') '"'
+   exe '!tf checkout "' expand('%:p') '"'
+endfunction
+command! Tfcommit :call Tfcommit()
+
 function! TFhistory()
    if bufnr("TFhistory") >0
       exe "sb TFhistory"
@@ -23,4 +29,4 @@ function! TFhistory()
    normal 1G
    wincmd J
 endfunction
-command! TFhistory :call TFhistory() 
+command! Tfhistory :call TFhistory() 
