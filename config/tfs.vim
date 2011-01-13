@@ -1,17 +1,23 @@
 " setup TFS integration
 function! Tfcheckout()
-   exe '!tf checkout "' expand('%:p') '"'
+   exe '!tf checkout ' expand('%:p') ''
 endfunction
 command! Tfcheckout :call Tfcheckout()
 
 function! Tfcheckin()
-   exe '!tf checkin "' expand('%:p') '"'
+   exe '!tf checkin ' expand('%:p') ''
 endfunction
 command! Tfcheckin :call Tfcheckin()
 
+function! Tfundo()
+   exe '!tf undo ' expand('%:p') ''
+endfunction
+command! Tfundo :call Tfundo()
+
+
 function! Tfcommit()
-   exe '!tf checkin "' expand('%:p') '"'
-   exe '!tf checkout "' expand('%:p') '"'
+   exe '!tf checkin ' expand('%:p') ''
+   exe '!tf checkout ' expand('%:p') ''
 endfunction
 command! Tfcommit :call Tfcommit()
 
