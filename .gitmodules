@@ -94,3 +94,6 @@
 [submodule "bundle-python/slimv.vim"]
 	path = bundle-python/slimv.vim
 	url = git://github.com/vim-scripts/slimv.vim.git
+[submodule "bundle/TVO--The-Vim-Outliner"]
+	path = bundle/TVO--The-Vim-Outliner
+	url = git://github.com/vim-scripts/TVO--The-Vim-Outliner.git
