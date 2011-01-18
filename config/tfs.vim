@@ -14,6 +14,10 @@ function! Tfundo()
 endfunction
 command! Tfundo :call Tfundo()
 
+function! Tfadd()
+   exe '!tf add ' expand('%:p') ''
+endfunction
+command! Tfadd :call Tfadd()
 
 function! Tfcommit()
    exe '!tf checkin ' expand('%:p') ''
