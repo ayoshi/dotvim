@@ -32,6 +32,11 @@ set nowrap       " wrap lines rather than use horiz. scrolling
 set linebreak    " try not to wrap in the middle of a word
 set textwidth=80 " 80-character lines maximum
 
+" search settings
+set incsearch  " Make searches case-insensitive, unless they contain upper-case letters
+set ignorecase " ignore case in searc
+set smartcase  " Unless it contains Uppercase
+
 " format settings
 " t - Auto-wrap text using textwidth
 " c - Auto-wrap comments using textwidth, inserting the current comment
