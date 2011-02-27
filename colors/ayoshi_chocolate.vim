@@ -32,5 +32,5 @@ hi VertSplit guifg=Gray
 hi Search guibg=Gold3 ctermfg=Blue
 hi Type gui=NONE guifg=DarkSeaGreen2
 hi Statement gui=NONE guifg=Gold3
-hi FoldColumn guibg=#1f0f0f ctermfg=Cyan ctermbg=Black
-hi Folded guibg=grey20 ctermfg=Cyan ctermbg=Black
+hi FoldColumn guibg=#1f0f0f guifg=Brown ctermfg=Cyan ctermbg=Black
+hi Folded guibg=#1f0f0f guifg=Brown ctermfg=Cyan ctermbg=Black
