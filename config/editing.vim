@@ -6,6 +6,9 @@
 " save the last 100 commands/search terms
 set history=300
 
+" Respect modelines ( in-file vim settings )
+set modeline
+
 " automatically indent lines and try to do it intelligently
 set autoindent
 set smartindent
