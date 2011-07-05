@@ -103,3 +103,6 @@
 [submodule "bundle/Markdown-syntax"]
 	path = bundle/Markdown-syntax
 	url = https://github.com/vim-scripts/Markdown-syntax.git
+[submodule "bundle/vim-buffergator"]
+	path = bundle/vim-buffergator
+	url = git://github.com/jeetsukumaran/vim-buffergator.git
