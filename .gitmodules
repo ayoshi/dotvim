@@ -115,3 +115,9 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/vim-css-color"]
+	path = bundle/vim-css-color
+	url = https://github.com/skammer/vim-css-color.git
+[submodule "bundle-ruby/vim-ruby-debugger"]
+	path = bundle-ruby/vim-ruby-debugger
+	url = https://github.com/astashov/vim-ruby-debugger.git
