@@ -2,7 +2,7 @@
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
-colorscheme ayoshi_black
+colorscheme solarized
 
 set laststatus=2   " always display a status line
 set number         " show line numbers
