@@ -106,3 +106,6 @@
 [submodule "bundle/vim-buffergator"]
 	path = bundle/vim-buffergator
 	url = git://github.com/jeetsukumaran/vim-buffergator.git
+[submodule "bundle-python/gundo.vim"]
+	path = bundle-python/gundo.vim
+	url = https://github.com/sjl/gundo.vim.git
