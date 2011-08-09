@@ -3,6 +3,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
 colorscheme solarized
+set background=dark
 
 set laststatus=2   " always display a status line
 set number         " show line numbers
