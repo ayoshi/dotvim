@@ -1,9 +1,12 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""
 "" loads display-related option (colorscheme, etc.)
 """""""""""""""""""""""""""""""""""""""""""""""""""
+" Settings are specific for solarized colorscheme - require solarized terminal
+" color settings
 
 colorscheme solarized
 set background=dark
+let g:CSApprox_loaded = 1
 
 set laststatus=2   " always display a status line
 set number         " show line numbers
