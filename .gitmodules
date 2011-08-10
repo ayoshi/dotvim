@@ -121,3 +121,6 @@
 [submodule "bundle-ruby/vim-ruby-debugger"]
 	path = bundle-ruby/vim-ruby-debugger
 	url = https://github.com/astashov/vim-ruby-debugger.git
+[submodule "bundle/vim-extradite"]
+	path = bundle/vim-extradite
+	url = git://github.com/int3/vim-extradite.git
