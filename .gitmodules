@@ -133,6 +133,3 @@
 [submodule "bundle/gitv"]
 	path = bundle/gitv
 	url = git://github.com/vim-scripts/gitv.git
-[submodule "bundle/unite.vim"]
-	path = bundle/unite.vim
-	url = git://github.com/vim-scripts/unite.vim.git
