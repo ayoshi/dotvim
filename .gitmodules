@@ -133,3 +133,6 @@
 [submodule "bundle/ri-viewer"]
 	path = bundle/ri-viewer
 	url = git://github.com/vim-scripts/ri-viewer.git
+[submodule "bundle/gitv"]
+	path = bundle/gitv
+	url = git://github.com/vim-scripts/gitv.git
