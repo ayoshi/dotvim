@@ -130,3 +130,6 @@
 [submodule "bundle/MRU"]
 	path = bundle/MRU
 	url = git://github.com/vim-scripts/MRU.git
+[submodule "bundle/ri-viewer"]
+	path = bundle/ri-viewer
+	url = git://github.com/vim-scripts/ri-viewer.git
