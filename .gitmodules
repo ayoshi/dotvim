@@ -136,3 +136,9 @@
 [submodule "bundle/unite.vim"]
 	path = bundle/unite.vim
 	url = git://github.com/vim-scripts/unite.vim.git
+[submodule "bundle/browser-like-scrolling-for-readonly-file"]
+	path = bundle/browser-like-scrolling-for-readonly-file
+	url = git://github.com/vim-scripts/browser-like-scrolling-for-readonly-file.git
+[submodule "bundle/ScrollColors"]
+	path = bundle/ScrollColors
+	url = git://github.com/vim-scripts/ScrollColors.git
