@@ -27,7 +27,11 @@ endif
 call pathogen#runtime_append_all_bundles() 
 
 " Causes problems if bundles are git submodules , creates untracked tags files
-"call pathogen#helptags()
+"  Fix:     
+"  git config --global core.excludesfile '~/.cvsignore'
+"  echo tags >> ~/.cvsignore
+"
+call pathogen#helptags()
 
 " turn on all filetype settings, syntax, etc.
 filetype plugin indent on
