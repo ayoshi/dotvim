@@ -142,3 +142,6 @@
 [submodule "bundle/ScrollColors"]
 	path = bundle/ScrollColors
 	url = git://github.com/vim-scripts/ScrollColors.git
+[submodule "bundle-python/Python-mode-klen"]
+	path = bundle-python/Python-mode-klen
+	url = https://github.com/vim-scripts/Python-mode-klen.git
