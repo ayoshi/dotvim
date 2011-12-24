@@ -145,3 +145,9 @@
 [submodule "bundle-python/Python-mode-klen"]
 	path = bundle-python/Python-mode-klen
 	url = https://github.com/vim-scripts/Python-mode-klen.git
+[submodule "bundle-python/UltiSnips"]
+	path = bundle-python/UltiSnips
+	url = git://github.com/vim-scripts/UltiSnips.git
+[submodule "bundle-python/pep8.git"]
+	path = bundle-python/pep8.git
+	url = git://github.com/vim-scripts/pep8.git
