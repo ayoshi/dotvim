@@ -31,6 +31,8 @@ if has("gui_running")
     set guifont=Monaco:h11
     set lines=50
     set columns=180
+    " Lion fullscreen maximize only vertically
+    set fuopt=maxvert  
 
   elseif has("x11")
 

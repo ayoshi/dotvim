@@ -11,6 +11,4 @@ set diffopt+=iwhite
 "Horizontal split
 "set diffopt+=horizontal
 
-" Lion fullscreen maximize only vertically
-set fuopt=maxvert  
 
