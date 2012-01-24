@@ -35,3 +35,12 @@ syntax on
 
 " load everything else in its own config file
 "runtime! config/**/*
+set nonu
+let no_plugin_maps = 1
+set scrolloff=999
+runtime! macros/less.vim
+set foldlevel=999
+set foldcolumn=0
+set mouse=h
+set laststatus=0
+nmap <ESC>u :nohlsearch<cr>
