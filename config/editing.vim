@@ -19,10 +19,10 @@ set backspace=indent,eol,start
 set whichwrap+=<,>,h,l   " cursor keys also wrap
 
 " spaces instead of tabs
-" prefer 3 spaces
-set softtabstop=3
-set tabstop=3
-set shiftwidth=3
+" prefer 4 spaces
+set softtabstop=4
+set tabstop=4
+set shiftwidth=4
 set expandtab
 
 " Visual
