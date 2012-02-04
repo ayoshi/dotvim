@@ -55,4 +55,5 @@ noremap <C-Up>    <C-W>k
 noremap <C-Left>  <C-W>h
 noremap <C-Right> <C-W>l
 
-
+" Make F2 switch to the paste mode, allowing non-indented paste into VIM
+set pastetoggle=<F2>
