@@ -13,6 +13,9 @@ let mapleader = ";"
 " turn filetype settings off so that stuff gets loaded from pathogen
 filetype off
 
+"Keep tempfiles in place
+source config/tempfiles.vim
+
 " Add plugins which require ruby only if we have it compiled in
 "if has("ruby") 
 	"call pathogen#runtime_prepend_subdirectories('~/.vim/bundle-ruby')
