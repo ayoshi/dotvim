@@ -151,3 +151,6 @@
 [submodule "bundle-python/pep8.git"]
 	path = bundle-python/pep8.git
 	url = git://github.com/vim-scripts/pep8.git
+[submodule "bundle/puppet-vim"]
+	path = bundle/puppet-vim
+	url = https://github.com/ajf/puppet-vim.git
