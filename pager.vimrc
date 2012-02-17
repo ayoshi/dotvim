@@ -14,7 +14,7 @@ let mapleader = ";"
 filetype off
 
 "Keep tempfiles in place
-source config/tempfiles.vim
+source ~/.vim/config/tempfiles.vim
 
 " Add plugins which require ruby only if we have it compiled in
 "if has("ruby") 
