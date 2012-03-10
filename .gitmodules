@@ -93,7 +93,7 @@
 	url = git://github.com/vim-scripts/TVO--The-Vim-Outliner.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
-	url = git://github.com/tpope/vim-markdown.git
+	url = https://github.com/hallison/vim-markdown
 [submodule "bundle/Markdown-syntax"]
 	path = bundle/Markdown-syntax
 	url = https://github.com/vim-scripts/Markdown-syntax.git
