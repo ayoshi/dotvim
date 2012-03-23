@@ -44,4 +44,6 @@ if has("gui_running")
 
   endif
 
+else
+    set mouse=a
 endif
