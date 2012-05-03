@@ -1,6 +1,6 @@
 "Buffergator - buffer navigation
 
-map <Leader>b :BuffergatorToggle<CR>
+"map <Leader>b :BuffergatorToggle<CR>
 
 " We will map manually to toggle
 let g:buffergator_suppress_keymaps="1"

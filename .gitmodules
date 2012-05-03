@@ -151,3 +151,6 @@
 [submodule "bundle/tslime.vim"]
 	path = bundle/tslime.vim
 	url = git://github.com/xaviershay/tslime.vim.git
+[submodule "bundle/buffet"]
+	path = bundle/buffet
+	url = git://github.com/vim-scripts/buffet.vim.git
