@@ -14,7 +14,7 @@ if has("gui_running")
 
   if has("gui_gtk2")
 
-   set guifont=Monospace
+  set guifont=Monospace
 
   elseif has("gui_gnome")
 
@@ -45,5 +45,7 @@ if has("gui_running")
   endif
 
 else
+" Text mode
     set mouse=a
+
 endif
