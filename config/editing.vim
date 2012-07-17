@@ -58,12 +58,8 @@ set smartcase  " Unless it contains Uppercase
 set formatoptions=rqn21
 
 " Use clipboard for yanks
-"     set clipboard+=unnamed
-"     endif'
-"
-if $TMUX == ''
-        set clipboard+=unnamed
-endif
+set clipboard=unnamed
+
 
 " Automatically restore cursor position when possible
 autocmd BufReadPost *
