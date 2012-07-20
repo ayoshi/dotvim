@@ -28,7 +28,7 @@ if has("gui_running")
 
     " In macvim , set Monaco as terminal font and transparency is available
     set transp=3
-    set guifont=Monaco:h11
+    set guifont=Inconsolata-dz\ for\ Powerline:h11
     set lines=50
     set columns=180
     " Lion fullscreen maximize only vertically
