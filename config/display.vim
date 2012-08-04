@@ -16,3 +16,7 @@ set title          " show file in titlebar
 set foldcolumn=3   " show folding column to make 2-level folding visualy comfortable
 " Disable all bells
 set vb t_vb=
+
+" Highlight search terms...
+set hlsearch
+set incsearch " ...dynamically as they are typed.

@@ -49,3 +49,6 @@ else
     set mouse=a
 
 endif
+
+" When close to the end of viewport move 3 lines 
+set scrolloff=3

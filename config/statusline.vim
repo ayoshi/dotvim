@@ -16,7 +16,7 @@
 "" the command line. "..." will appear in the middle.
 "" I - don't give the intro message when starting Vim.
 
-"set shortmess=atTI
+set shortmess=atTI
 
 ""statusline setup
 "set statusline=%f       "tail of the filename
