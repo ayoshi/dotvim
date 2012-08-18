@@ -166,3 +166,6 @@
 [submodule "bundle-python/vim-cute-python"]
 	path = bundle-python/vim-cute-python
 	url = git://github.com/ehamberg/vim-cute-python.git
+[submodule "bundle/rainbow_parentheses"]
+	path = bundle/rainbow_parentheses
+	url = git://github.com/kien/rainbow_parentheses.vim.git
